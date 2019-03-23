@@ -1004,7 +1004,7 @@ def bot(op):
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         k19.acceptGroupInvitation(op.param1)
                         ginfo = k19.getGroup(op.param1)
-                        k13.leaveGroup(op.param1)
+                        k19.leaveGroup(op.param1)
                     else:
                         k19.acceptGroupInvitation(op.param1)
                         ginfo = k19.getGroup(op.param1)
@@ -1266,7 +1266,7 @@ def bot(op):
                 pass
                 
         if op.type == 19:
-            if op.param1 in ghost:
+            if op.param1 in ผี:
                 try:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         G = cl.getGroup(op.param1)
@@ -6101,7 +6101,7 @@ def bot(op):
                                 except:
                                     pass
 
-                        elif cmd == "เชคเตะ":
+                        elif cmd == "ck":
                             if msg._from in admin or msg._from in owner:
                                try:cl.inviteIntoGroup(to, ["uc66e45201d1612eb4ce7b3a86bac4685"]);has = "OK"
                                except:has = "NOT"
@@ -7756,124 +7756,7 @@ def bot(op):
                                         kk.leaveGroup(i)
                                         kc.leaveGroup(i)
                                         kb.leaveGroup(i)
-                                        cl.sendMessage(to,"Berhasil keluar dari grup " +h)
-
-                        elif cmd == "R1":
-                            if msg._from in admin:
-                                G = cl.getGroup(msg.to)
-                                ginfo = cl.getGroup(msg.to)
-                                G.preventedJoinByTicket = False
-                                cl.updateGroup(G)
-                                invsend = 0
-                                Ticket = cl.reissueGroupTicket(msg.to)
-                                ki.acceptGroupInvitationByTicket(msg.to,Ticket)
-                                G = ki.getGroup(msg.to)
-                                G.preventedJoinByTicket = True
-                                ki.updateGroup(G)
-
-                        elif cmd == "R2":
-                            if msg._from in admin:
-                                G = cl.getGroup(msg.to)
-                                ginfo = cl.getGroup(msg.to)
-                                G.preventedJoinByTicket = False
-                                cl.updateGroup(G)
-                                invsend = 0
-                                Ticket = cl.reissueGroupTicket(msg.to)
-                                kk.acceptGroupInvitationByTicket(msg.to,Ticket)
-                                G = kk.getGroup(msg.to)
-                                G.preventedJoinByTicket = True
-                                kk.updateGroup(G)
-
-                        elif cmd == "R3":
-                            if msg._from in admin:
-                                G = cl.getGroup(msg.to)
-                                ginfo = cl.getGroup(msg.to)
-                                G.preventedJoinByTicket = False
-                                cl.updateGroup(G)
-                                invsend = 0
-                                Ticket = cl.reissueGroupTicket(msg.to)
-                                kc.acceptGroupInvitationByTicket(msg.to,Ticket)
-                                G = kc.getGroup(msg.to)
-                                G.preventedJoinByTicket = True
-                                kc.updateGroup(G)
-                                
-                        elif cmd == "R4":
-                            if msg._from in admin:
-                                G = cl.getGroup(msg.to)
-                                ginfo = cl.getGroup(msg.to)
-                                G.preventedJoinByTicket = False
-                                cl.updateGroup(G)
-                                invsend = 0
-                                Ticket = cl.reissueGroupTicket(msg.to)
-                                kb.acceptGroupInvitationByTicket(msg.to,Ticket)
-                                G = kb.getGroup(msg.to)
-                                G.preventedJoinByTicket = True
-                                kb.updateGroup(G) 
-        
-                        elif cmd == "R5":
-                            if msg._from in admin:
-                                G = cl.getGroup(msg.to)
-                                ginfo = cl.getGroup(msg.to)
-                                G.preventedJoinByTicket = False
-                                cl.updateGroup(G)
-                                invsend = 0
-                                Ticket = cl.reissueGroupTicket(msg.to)
-                                kd.acceptGroupInvitationByTicket(msg.to,Ticket)
-                                G = kd.getGroup(msg.to)
-                                G.preventedJoinByTicket = True
-                                kd.updateGroup(G)
-
-                        elif cmd == "R6":
-                            if msg._from in admin:
-                                G = cl.getGroup(msg.to)
-                                ginfo = cl.getGroup(msg.to)
-                                G.preventedJoinByTicket = False
-                                cl.updateGroup(G)
-                                invsend = 0
-                                Ticket = cl.reissueGroupTicket(msg.to)
-                                ke.acceptGroupInvitationByTicket(msg.to,Ticket)
-                                G = ke.getGroup(msg.to)
-                                G.preventedJoinByTicket = True
-                                ke.updateGroup(G)
-
-                        elif cmd == "R7":
-                            if msg._from in admin:
-                                G = cl.getGroup(msg.to)
-                                ginfo = cl.getGroup(msg.to)
-                                G.preventedJoinByTicket = False
-                                cl.updateGroup(G)
-                                invsend = 0
-                                Ticket = cl.reissueGroupTicket(msg.to)
-                                kf.acceptGroupInvitationByTicket(msg.to,Ticket)
-                                G = kf.getGroup(msg.to)
-                                G.preventedJoinByTicket = True
-                                kf.updateGroup(G)
-                                
-                        elif cmd == "R8":
-                            if msg._from in admin:
-                                G = cl.getGroup(msg.to)
-                                ginfo = cl.getGroup(msg.to)
-                                G.preventedJoinByTicket = False
-                                cl.updateGroup(G)
-                                invsend = 0
-                                Ticket = cl.reissueGroupTicket(msg.to)
-                                kg.acceptGroupInvitationByTicket(msg.to,Ticket)
-                                G = kg.getGroup(msg.to)
-                                G.preventedJoinByTicket = True
-                                kg.updateGroup(G) 
-                                
-                        elif cmd == "R9":
-                            if msg._from in admin:
-                                G = cl.getGroup(msg.to)
-                                ginfo = cl.getGroup(msg.to)
-                                G.preventedJoinByTicket = False
-                                cl.updateGroup(G)
-                                invsend = 0
-                                Ticket = cl.reissueGroupTicket(msg.to)
-                                kh.acceptGroupInvitationByTicket(msg.to,Ticket)
-                                G = kh.getGroup(msg.to)
-                                G.preventedJoinByTicket = True
-                                kh.updateGroup(G)        
+                                        cl.sendMessage(to,"Berhasil keluar dari grup " +h)      
  
                         elif cmd == "ผีมา":
                             if msg._from in admin:
@@ -8153,7 +8036,7 @@ def bot(op):
 
                         elif 'js ' in msg.text:
                            if msg._from in admin:
-                              spl = msg.text.replace('Antijs ','')
+                              spl = msg.text.replace('js ','')
                               if spl == 'on':
                                   if msg.to in protectantijs:
                                        msgs = "Anti JS sudah aktif"
@@ -8173,7 +8056,7 @@ def bot(op):
                                     
                         elif 'ผี ' in msg.text:
                            if msg._from in admin:
-                              spl = msg.text.replace('Ghost ','')
+                              spl = msg.text.replace('ผี ','')
                               if spl == 'on':
                                   if msg.to in ghost:
                                        msgs = "Ghost sudah aktif"
