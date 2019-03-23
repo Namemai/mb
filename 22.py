@@ -20,7 +20,7 @@ import ffmpy
 from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
-import pyimgflip
+#import pyimgflip
 
 cl = LineClient()
 cl.log("Auth Token : " + str(cl.authToken))
