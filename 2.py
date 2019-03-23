@@ -22,44 +22,96 @@ from googletrans import Translator
 import youtube_dl
 #import pyimgflip
 
-cl = LineClient("EDiASmEQnNTkladJ1MZ5.XM5fib0weUTm57oOA6XgHq.69rM0v/pBp+ugzVrAyiJkFm2xG/DcIrOwmPEODhpsAg")
+cl = LineClient()
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient("EDhjeRcM120AwpWqqul4.+0VwFLVgQ2j2cX+3JyNF5a.9VKM7a7Q2e9RO4qmcalJjQtCYRNNnZiwG61izrNOn5w")
+ki = LineClient()
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kk = LineClient("EDuhWu7c1NCfdlwFOKB6.xBAEeq5CEKAfHgmSzhk7zG.cbPwmFJbNojFPbMsJ2wPAJb5EbHzeSYhmPgIP+o0VOo")
+kk = LineClient()
 kk.log("Auth Token : " + str(kk.authToken))
 kk.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kc = LineClient("EDBtbzvA6Xb3DgpGS4Na.F/033Vty47ZVwBhORXhAoG.zi2K2fsFgkBLTEb6VSyvC8Gm6jOAoG4baVXZrsfJ2f0")
+kc = LineClient()
 kc.log("Auth Token : " + str(kc.authToken))
 kc.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kb = LineClient("EDo4wKQpCms7br7gwJu2.iFiwAtxjMF5fdoxQwQqMuG.8p8Zg27Oe2Rr2cGlPaGqBKkIH/El5B33vVCcwx5j15w")
+kb = LineClient()
 kb.log("Auth Token : " + str(kb.authToken))
 kb.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kd = LineClient("EDRhO0VsXAwNVkpVx8j5.jZLwNsJF0dLY/sVeui1BLq.EIWDWE8x3e3US3l4N2GxmG1djHtkplgcXBKKipLWd60")
+kd = LineClient()
 kd.log("Auth Token : " + str(kd.authToken))
 kd.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ke = LineClient("ED0dEa3ReFvB3HzhwlS0.4joXktOiD5sMDqP3TEW5Ka.moAssNi6qB4ynEzMcVsEBykXez4MXcVeUWq2g6lf63A")
+ke = LineClient()
 ke.log("Auth Token : " + str(ke.authToken))
 ke.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kf = LineClient("EDk8mK1SNWfFvMmDOEya.z1BLPUXch76fSXC9ldkHAG./t3q7uipD54S+IjYPZomoSNXOGKvAsJtRBxZwaywIJQ")
+kf = LineClient()
 kf.log("Auth Token : " + str(kf.authToken))
 kf.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kj = LineClient("EDSRsgGbQTO1zJo44dP6.P0DywLibVMEvA1w8+MyKzG.ZEgxXGtgWM0vKLE6NFije2mFFjyiNpJ8kMC9RwscJYY")
+k8 = LineClient()
+k8.log("Auth Token : " + str(k8.authToken))
+k8.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+k9 = LineClient()
+k9.log("Auth Token : " + str(k9.authToken))
+k9.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+k10 = LineClient()
+k10.log("Auth Token : " + str(k10.authToken))
+k10.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+k11 = LineClient()
+k11.log("Auth Token : " + str(k11.authToken))
+k11.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+k12 = LineClient()
+k12.log("Auth Token : " + str(k12.authToken))
+k12.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+k13 = LineClient()
+k13.log("Auth Token : " + str(k13.authToken))
+k13.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+k14 = LineClient()
+k14.log("Auth Token : " + str(k14.authToken))
+k14.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+k15 = LineClient()
+k15.log("Auth Token : " + str(k15.authToken))
+k15.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+k16 = LineClient()
+k16.log("Auth Token : " + str(k16.authToken))
+k16.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+k17 = LineClient()
+k17.log("Auth Token : " + str(k17.authToken))
+k17.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+k18 = LineClient()
+k18.log("Auth Token : " + str(k18.authToken))
+k18.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+k19 = LineClient()
+k19.log("Auth Token : " + str(k19.authToken))
+k19.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+k20 = LineClient()
+k20.log("Auth Token : " + str(k20.authToken))
+k20.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+kj = LineClient()
 kj.log("Auth Token : " + str(kj.authToken))
 kj.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-sw = LineClient("EDVw2pACOl72hHeMEvfb.jsVVBl6s1wGGAmAWEJzz2W.dInFa4SlSbb1LReWAbqgLeVqkf9v4I57Cng5tz/iHvQ")
+sw = LineClient()
 sw.log("Auth Token : " + str(sw.authToken))
 sw.log("Channel Access Token : " + str(channel.channelAccessToken))
 print("\nBY: SELFBOT-BY:MAX\n")
@@ -78,12 +130,25 @@ Dmid = kb.getProfile().mid
 Emid = kd.getProfile().mid
 Fmid = ke.getProfile().mid
 Gmid = kf.getProfile().mid
+mid8 = k8.getProfile().mid
+mid9 = k9.getProfile().mid
+mid10 = k10.getProfile().mid
+mid11 = k11.getProfile().mid
+mid12 = k12.getProfile().mid
+mid13 = k13.getProfile().mid
+mid14 = k14.getProfile().mid
+mid15 = k15.getProfile().mid
+mid16 = k16.getProfile().mid
+mid17 = k17.getProfile().mid
+mid18 = k18.getProfile().mid
+mid19 = k19.getProfile().mid
+mid20 = k20.getProfile().mid
 Jmid = kj.getProfile().mid
 Zmid = sw.getProfile().mid
-KAC = [cl,ki,kk,kc,kb,kd,ke,kf,kj,sw]
-ABC = [cl,ki,kk,kc,kb,kd,ke,kf,kj,sw]
+KAC = [cl,ki,kk,kc,kb,kd,ke,kf,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20,kj,sw]
+ABC = [cl,ki,kk,kc,kb,kd,ke,kf,k8,k9,k10,k11,k12,k13,k14,k15,k16,k17,k18,k19,k20,kj,sw]
 GHOST = [kj,sw]
-Bots = [mid,Amid,Bmid,Dmid,Emid,Fmid,Gmid,Jmid,Zmid]
+Bots = [mid,Amid,Bmid,Dmid,Emid,Fmid,Gmid,mid8,mid9,mid10,mid11,mid12,mid13,mid14,mid15,mid16,mid17,mid18,mid19,mid20,Jmid,Zmid]
 Saints = admin + staff
 
 protectqr = []
@@ -106,6 +171,19 @@ responsename4 = kb.getProfile().displayName
 responsename5 = kd.getProfile().displayName
 responsename6 = ke.getProfile().displayName
 responsename7 = kf.getProfile().displayName
+responsename1 = k8.getProfile().displayName
+responsename2 = k9.getProfile().displayName
+responsename3 = k10.getProfile().displayName
+responsename4 = k11.getProfile().displayName
+responsename5 = k12.getProfile().displayName
+responsename6 = k13.getProfile().displayName
+responsename7 = k14.getProfile().displayName
+responsename1 = k15.getProfile().displayName
+responsename2 = k16.getProfile().displayName
+responsename3 = k17.getProfile().displayName
+responsename4 = k18.getProfile().displayName
+responsename5 = k19.getProfile().displayName
+responsename6 = k20.getProfile().displayName
 responsename8 = kj.getProfile().displayName
 responsename9 = sw.getProfile().displayName
 
@@ -206,12 +284,12 @@ wait = {
             "statusMessage": ""
             },
     "unsend":False,
-    "mention":"🕵 SELFBOT-BY:MAX 🕵",
-    "Respontag":"🕵 SELFBOT-BY:MAX 🕵",
-    "welcome":"🕵 SELFBOT-BY:MAX 🕵",
+    "mention":"BY:MAI",
+    "Respontag":"BY:MAI",
+    "welcome":"BY:MAI",
     "leave":"Slamat tinggal sobat\nsmoga ktmu di lain hari nanti",
-    "comment":"🕵 SELFBOT-BY:MAX 🕵",
-    "message":"🕵 SELFBOT-BY:MAX 🕵"
+    "comment":"BY:MAI",
+    "message":"BY:MAI",
 }
 read = {
     "readPoint":{},
@@ -465,7 +543,7 @@ def help():
                   "🇹🇭❂͜͡➣ " + key + "คำสั่ง1\n" + \
                   "🇹🇭❂͜͡➣ " + key + "คำสั่ง2\n" + \
                   "🇹🇭❂͜͡➣ " + key + "คำสั่ง3\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "แม็คลบ\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "!mai\n" + \
                   "🇹🇭❂͜͡➣ " + key + "คท\n" + \
                   "🇹🇭❂͜͡➣ " + key + "เช็ค\n" + \
                   "🇹🇭❂͜͡➣ " + key + "ข้อมูล\n" + \
@@ -495,7 +573,7 @@ def help():
                   "🇹🇭❂͜͡➣ " + key + "ล้างดำ\n" + \
                   "🇹🇭❂͜͡➣ " + key + "ตั้งแอดมิน @\n" + \
                   "🇹🇭❂͜͡➣ " + key + "ลบแอดมิน @\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "รูป1-9\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "รูป1-20\n" + \
                   "🇹🇭❂͜͡➣ " + key + "protectkick on\off\n" + \
                   "🇹🇭❂͜͡➣ " + key + "protectjoin on\off\n" + \
                   "🇹🇭❂͜͡➣ " + key + "protectinvite on\off\n" + \
@@ -503,8 +581,7 @@ def help():
                   "🇹🇭❂͜͡➣ " + key + "Ghost on\off\n" + \
                   "🇹🇭❂͜͡➣ " + key + "Allpro on\off\n" + \
                   "🇹🇭❂͜͡➣ " + key + "Antijs on\n" + \
-                  "🇹🇭❂͜͡➣ การใช้เชลบอท.../nกรุณาใส่เครื่องหมาย / นำหน้าคำสั่งที่เป็นภาษาไทย\n" + \
-                  "🇹🇭❂͜͡➣ BY: SELFBOT-BY:MAX"
+                  "🇹🇭❂͜͡➣ BY:MAI"
 
     return helpMessage
 
@@ -537,8 +614,7 @@ def help1():
                   "🇹🇭❂͜͡➣ " + key + "เปลี่ยนรูปกลุ่ม\n" + \
                   "🇹🇭❂͜͡➣ " + key + "ของขวัญ:「ไอดี」「จำนวน」\n" + \
                   "🇹🇭❂͜͡➣ " + key + "แสปม:「ไอดี」「จำนวน」\n" + \
-                  "🇹🇭❂͜͡➣ กรุณาใส่เครื่องหมาย / นำหน้าคำสั่งที่เป็นภาษาไทย\n" + \
-                  "🇹🇭❂͜͡➣ BY: SELFBOT-BY:MAX"
+                  "🇹🇭❂͜͡➣ BY:MAI"
                   
     return helpMessage1
 
@@ -581,8 +657,7 @@ def help2():
                   "🇹🇭❂͜͡➣ " + key + "ตั้งแทค「ข้อความ」\n" + \
                   "🇹🇭❂͜͡➣ " + key + "ตั้งคนออก「ข้อความ」\n" + \
                   "🇹🇭❂͜͡➣ " + key + "ตั้งคนเข้า「ข้อความ」\n" + \
-                  "🇹🇭❂͜͡➣ กรุณาใส่เครื่องหมาย / นำหน้าคำสั่งที่เป็นภาษาไทย\n" + \
-                  "🇹🇭❂͜͡➣ BY: SELFBOT-BY:MAX"
+                  "🇹🇭❂͜͡➣ BY:MAI"
 
     return helpMessage2
 
@@ -628,8 +703,7 @@ def help3():
                   "🇹🇭❂͜͡➣ " + key + "Get-lirik「Judul Lagu」\n" + \
                   "🇹🇭❂͜͡➣ " + key + "Get-instagram「User Name」\n" + \
                   "🇹🇭❂͜͡➣ " + key + "Get-date「tgl-bln-thn」\n" + \
-                  "🇹🇭❂͜͡➣ กรุณาใส่เครื่องหมาย / นำหน้าคำสั่งที่เป็นภาษาไทย\n" + \
-                  "🇹🇭❂͜͡➣ BY: SELFBOT-BY:MAX"
+                  "🇹🇭❂͜͡➣ BY:MAI"
 
     return helpMessage3
 
@@ -761,88 +835,188 @@ def bot(op):
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        cl.sendMessage(op.param1,"Haii " +str(ginfo.name))
                     else:
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        cl.sendMessage(op.param1,"Haii " + str(ginfo.name))
             if Amid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         ki.acceptGroupInvitation(op.param1)
                         ginfo = ki.getGroup(op.param1)
-                        ki.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         ki.leaveGroup(op.param1)
                     else:
                         ki.acceptGroupInvitation(op.param1)
                         ginfo = ki.getGroup(op.param1)
-                        ki.sendMessage(op.param1,"Hai " + str(ginfo.name))
             if Bmid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         kk.acceptGroupInvitation(op.param1)
                         ginfo = kk.getGroup(op.param1)
-                        ki.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         kk.leaveGroup(op.param1)
                     else:
                         kk.acceptGroupInvitation(op.param1)
                         ginfo = kk.getGroup(op.param1)
-                        kk.sendMessage(op.param1,"Hai " + str(ginfo.name))
             if Cmid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         kc.acceptGroupInvitation(op.param1)
                         ginfo = kc.getGroup(op.param1)
-                        kc.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         kc.leaveGroup(op.param1)
                     else:
                         kc.acceptGroupInvitation(op.param1)
                         ginfo = kc.getGroup(op.param1)
-                        kc.sendMessage(op.param1,"Hai " + str(ginfo.name))
             if Dmid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         kb.acceptGroupInvitation(op.param1)
                         ginfo = kb.getGroup(op.param1)
-                        kb.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         kb.leaveGroup(op.param1)
                     else:
                         kb.acceptGroupInvitation(op.param1)
                         ginfo = kb.getGroup(op.param1)
-                        kb.sendMessage(op.param1,"Hai " + str(ginfo.name)) 
             if Emid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         kd.acceptGroupInvitation(op.param1)
                         ginfo = kd.getGroup(op.param1)
-                        kd.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         kd.leaveGroup(op.param1)
                     else:
                         kd.acceptGroupInvitation(op.param1)
                         ginfo = kd.getGroup(op.param1)
-                        kd.sendMessage(op.param1,"Hai " + str(ginfo.name)) 
             if Fmid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         ke.acceptGroupInvitation(op.param1)
                         ginfo = ke.getGroup(op.param1)
-                        ke.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         ke.leaveGroup(op.param1)
                     else:
                         ke.acceptGroupInvitation(op.param1)
-                        ginfo = ke.getGroup(op.param1)
-                        ke.sendMessage(op.param1,"Hai " + str(ginfo.name))            
+                        ginfo = ke.getGroup(op.param1)           
             if Gmid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         kf.acceptGroupInvitation(op.param1)
                         ginfo = kf.getGroup(op.param1)
-                        kf.sendMessage(op.param1,"Selamat Tinggal\n Group " +str(ginfo.name))
                         kf.leaveGroup(op.param1)
                     else:
                         kf.acceptGroupInvitation(op.param1)
                         ginfo = kf.getGroup(op.param1)
-                        kf.sendMessage(op.param1,"Hai " + str(ginfo.name))                        
+            if mid8 in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        k8.acceptGroupInvitation(op.param1)
+                        ginfo = k8.getGroup(op.param1)
+                    else:
+                        k8.acceptGroupInvitation(op.param1)
+                        ginfo = k8.getGroup(op.param1)
+            if mid9 in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        k9.acceptGroupInvitation(op.param1)
+                        ginfo = k9.getGroup(op.param1)
+                        k9.leaveGroup(op.param1)
+                    else:
+                        k9.acceptGroupInvitation(op.param1)
+                        ginfo = k9.getGroup(op.param1)
+            if mid10 in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        k10.acceptGroupInvitation(op.param1)
+                        ginfo = k10.getGroup(op.param1)
+                        k10.leaveGroup(op.param1)
+                    else:
+                        k10.acceptGroupInvitation(op.param1)
+                        ginfo = k10.getGroup(op.param1)
+            if mid11 in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        k11.acceptGroupInvitation(op.param1)
+                        ginfo = k11.getGroup(op.param1)
+                        k11.leaveGroup(op.param1)
+                    else:
+                        k11.acceptGroupInvitation(op.param1)
+                        ginfo = k11.getGroup(op.param1)
+            if mid12 in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        k12.acceptGroupInvitation(op.param1)
+                        ginfo = k12.getGroup(op.param1)
+                        k12.leaveGroup(op.param1)
+                    else:
+                        k12.acceptGroupInvitation(op.param1)
+                        ginfo = k12.getGroup(op.param1)
+            if mid13 in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        k13.acceptGroupInvitation(op.param1)
+                        ginfo = k13.getGroup(op.param1)
+                        k13.leaveGroup(op.param1)
+                    else:
+                        k13.acceptGroupInvitation(op.param1)
+                        ginfo = k13.getGroup(op.param1)
+            if mid14 in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        k14.acceptGroupInvitation(op.param1)
+                        ginfo = k14.getGroup(op.param1)
+                        k14.leaveGroup(op.param1)
+                    else:
+                        k14.acceptGroupInvitation(op.param1)
+                        ginfo = k14.getGroup(op.param1)           
+            if mid15 in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        k15.acceptGroupInvitation(op.param1)
+                        ginfo = k15.getGroup(op.param1)
+                        k15.leaveGroup(op.param1)
+                    else:
+                        k15.acceptGroupInvitation(op.param1)
+                        ginfo = k15.getGroup(op.param1)
+            if mid16 in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        k16.acceptGroupInvitation(op.param1)
+                        ginfo = k16.getGroup(op.param1)
+                        k16.leaveGroup(op.param1)
+                    else:
+                        k16.acceptGroupInvitation(op.param1)
+                        ginfo = k16.getGroup(op.param1)
+            if mid17 in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        k17.acceptGroupInvitation(op.param1)
+                        ginfo = k17.getGroup(op.param1)
+                        k17.leaveGroup(op.param1)
+                    else:
+                        k17.acceptGroupInvitation(op.param1)
+                        ginfo = k17.getGroup(op.param1)
+            if mid18 in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        k18.acceptGroupInvitation(op.param1)
+                        ginfo = k18.getGroup(op.param1)
+                        k18.leaveGroup(op.param1)
+                    else:
+                        k18.acceptGroupInvitation(op.param1)
+                        ginfo = k18.getGroup(op.param1)
+            if mid19 in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        k19.acceptGroupInvitation(op.param1)
+                        ginfo = k19.getGroup(op.param1)
+                        k13.leaveGroup(op.param1)
+                    else:
+                        k19.acceptGroupInvitation(op.param1)
+                        ginfo = k19.getGroup(op.param1)
+            if mid20 in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        k20.acceptGroupInvitation(op.param1)
+                        ginfo = k20.getGroup(op.param1)
+                        k20.leaveGroup(op.param1)
+                    else:
+                        k20.acceptGroupInvitation(op.param1)
+                        ginfo = k20.getGroup(op.param1)                       
 
         if op.type == 13:
             if op.param1 in protectinvite:
