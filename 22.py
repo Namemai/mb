@@ -1645,7 +1645,7 @@ def bot(op):
                         cl.findAndAddContactsByMid(op.param1,[Zmid])
                         cl.findAndAddContactsByMid(op.param1,[Jmid])
                         cl.inviteIntoGroup(op.param1,[Zmid])
-                        cl.inviteIntoGroup(op.param1,[Jmid]
+                        cl.inviteIntoGroup(op.param1,[Jmid])
                         cl.inviteIntoGroup(op.param1,[admin])
                     else:
                         pass
