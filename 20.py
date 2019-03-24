@@ -2612,7 +2612,7 @@ def bot(op):
                                                             k15.inviteIntoGroup(op.param1,[op.param3])
                                                             ke.acceptGroupInvitation(op.param1)    
                                                         except:
-                                                        	try:
+                                                            try:
                                                                 k16.kickoutFromGroup(op.param1,[op.param2])
                                                                 k16.inviteIntoGroup(op.param1,[op.param3])
                                                                 ke.acceptGroupInvitation(op.param1)
