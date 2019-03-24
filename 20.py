@@ -6487,26 +6487,6 @@ def bot(op):
                    pass
             except:
                 pass
-
-#ADD Bots
-               if msg.contentType == 13:
-                 if msg._from in admin:
-                  if wait["addbots"] == True:
-                    if msg.contentMetadata["mid"] in Bots:
-                        cl.sendMessage(msg.to,"Contact itu sudah jadi anggota bot")
-                        wait["addbots"] = True
-                    else:
-                        Bots.append(msg.contentMetadata["mid"])
-                        wait["addbots"] = True
-                        cl.sendMessage(msg.to,"Berhasil menambahkan ke anggota bot")
-                 if wait["dellbots"] == True:
-                    if msg.contentMetadata["mid"] in Bots:
-                        Bots.remove(msg.contentMetadata["mid"])
-                        cl.sendMessage(msg.to,"Berhasil menghapus dari anggota bot")
-                    else:
-                        wait["dellbots"] = True
-                        cl.sendMessage(msg.to,"Contact itu bukan anggota bot saints")
-                                            
                         elif cmd == "คำสั่ง":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
