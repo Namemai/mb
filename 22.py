@@ -1266,7 +1266,7 @@ def bot(op):
                 pass
                 
         if op.type == 19:
-            if op.param1 in ผี:
+            if op.param1 in ghost:
                 try:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         G = cl.getGroup(op.param1)
@@ -5729,7 +5729,7 @@ def bot(op):
                                           print (msg.to,[g.mid])
                                       except Exception as e:
                                           break
-                        elif ("Vk " in msg.text):
+                        elif ("k " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
@@ -6466,7 +6466,7 @@ def bot(op):
                                     ma += str(a) + ". " +cl.getContact(m_id).displayName + "\n"
                                 cl.sendMessage(msg.to,"✒ Rey Talkban User\n\n"+ma+"\nTotal「%s」Talkban User" %(str(len(wait["Talkblacklist"]))))
 #===========BOT UPDATE============#
-                        elif cmd == "แทค" or text.lower() == '/แทค':
+                        elif cmd == "แท็ค" or text.lower() == '/แทค':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                group = cl.getGroup(msg.to)
@@ -8034,9 +8034,9 @@ def bot(op):
                               mc = "「%i」User Blacklist" % len(ragets)
                               cl.sendMessage(msg.to,"ล้างดำหมดแล้วคัฟเจ้านาย " +mc)
 
-                        elif 'js ' in msg.text:
+                        elif 'Antijs ' in msg.text:
                            if msg._from in admin:
-                              spl = msg.text.replace('js ','')
+                              spl = msg.text.replace('Antijs ','')
                               if spl == 'on':
                                   if msg.to in protectantijs:
                                        msgs = "Anti JS sudah aktif"
@@ -8054,9 +8054,9 @@ def bot(op):
                                          msgs = "Anti JS Sudah Tidak Aktif"
                                     cl.sendMessage(msg.to, "「Dinonaktifkan」\n" + msgs)
                                     
-                        elif 'ผี ' in msg.text:
+                        elif 'ghost ' in msg.text:
                            if msg._from in admin:
-                              spl = msg.text.replace('ผี ','')
+                              spl = msg.text.replace('ghost ','')
                               if spl == 'on':
                                   if msg.to in ghost:
                                        msgs = "Ghost sudah aktif"
