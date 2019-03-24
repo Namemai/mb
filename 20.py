@@ -2759,7 +2759,7 @@ def bot(op):
                                                             k16.inviteIntoGroup(op.param1,[op.param3])
                                                             kf.acceptGroupInvitation(op.param1)    
                                                         except:
-                                                        	try:
+                                                            try:
                                                                 k17.kickoutFromGroup(op.param1,[op.param2])
                                                                 k17.inviteIntoGroup(op.param1,[op.param3])
                                                                 kf.acceptGroupInvitation(op.param1)
@@ -2906,7 +2906,7 @@ def bot(op):
                                                             k17.inviteIntoGroup(op.param1,[op.param3])
                                                             k8.acceptGroupInvitation(op.param1)    
                                                         except:
-                                                        	try:
+                                                            try:
                                                                 k18.kickoutFromGroup(op.param1,[op.param2])
                                                                 k18.inviteIntoGroup(op.param1,[op.param3])
                                                                 k8.acceptGroupInvitation(op.param1)
