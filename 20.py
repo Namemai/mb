@@ -6485,8 +6485,6 @@ def bot(op):
                        Setmain["ARreadMember"][op.param1][op.param2] = True
                 else:
                    pass
-            except:
-                pass
                         elif cmd == "คำสั่ง":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
