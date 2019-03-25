@@ -1062,91 +1062,7 @@ def bot(op):
                                                 for _mid in gMembMids:
                                                     ke.cancelGroupInvitation(op.param1,[_mid])
                                             except:
-                                                try:
-                                                    group = kf.getGroup(op.param1)
-                                                    gMembMids = [contact.mid for contact in group.invitee]
-                                                    for _mid in gMembMids:
-                                                        kf.cancelGroupInvitation(op.param1,[_mid])
-                                                except:
-                                                    try:
-                                                        group = k8.getGroup(op.param1)
-                                                        gMembMids = [contact.mid for contact in group.invitee]
-                                                        for _mid in gMembMids:
-                                                            k8.cancelGroupInvitation(op.param1,[_mid])
-                                                    except:
-                                                        try:
-                                                            group = k9.getGroup(op.param1)
-                                                            gMembMids = [contact.mid for contact in group.invitee]
-                                                            for _mid in gMembMids:
-                                                                k9.cancelGroupInvitation(op.param1,[_mid])
-                                                        except:
-                                                            try:
-                                                                group = k10.getGroup(op.param1)
-                                                                gMembMids = [contact.mid for contact in group.invitee]
-                                                                for _mid in gMembMids:
-                                                                    k10.cancelGroupInvitation(op.param1,[_mid])
-                                                            except:
-                                                                try:
-                                                                    group = k11.getGroup(op.param1)
-                                                                    gMembMids = [contact.mid for contact in group.invitee]
-                                                                    for _mid in gMembMids:
-                                                                        k11.cancelGroupInvitation(op.param1,[_mid])
-                                                                except:
-                                                                    try:
-                                                                        group = k12.getGroup(op.param1)
-                                                                        gMembMids = [contact.mid for contact in group.invitee]
-                                                                        for _mid in gMembMids:
-                                                                            k12.cancelGroupInvitation(op.param1,[_mid])
-                                                                    except:
-                                                                        try:
-                                                                            group = k13.getGroup(op.param1)
-                                                                            gMembMids = [contact.mid for contact in group.invitee]
-                                                                            for _mid in gMembMids:
-                                                                                k13.cancelGroupInvitation(op.param1,[_mid])
-                                                                        except:
-                                                                            try:
-                                                                                group = k14.getGroup(op.param1)
-                                                                                gMembMids = [contact.mid for contact in group.invitee]
-                                                                                for _mid in gMembMids:
-                                                                                    k14.cancelGroupInvitation(op.param1,[_mid])
-                                                                            except:
-                                                                                try:
-                                                                                    group = k15.getGroup(op.param1)
-                                                                                    gMembMids = [contact.mid for contact in group.invitee]
-                                                                                    for _mid in gMembMids:
-                                                                                        k15.cancelGroupInvitation(op.param1,[_mid])
-                                                                                except:
-                                                                                    try:
-                                                                                        group = k16.getGroup(op.param1)
-                                                                                        gMembMids = [contact.mid for contact in group.invitee]
-                                                                                        for _mid in gMembMids:
-                                                                                            k16.cancelGroupInvitation(op.param1,[_mid])
-                                                                                    except:
-                                                                                        try:
-                                                                                            group = k17.getGroup(op.param1)
-                                                                                            gMembMids = [contact.mid for contact in group.invitee]
-                                                                                            for _mid in gMembMids:
-                                                                                                k17.cancelGroupInvitation(op.param1,[_mid])
-                                                                                        except:
-                                                                                            try:
-                                                                                                group = k18.getGroup(op.param1)
-                                                                                                gMembMids = [contact.mid for contact in group.invitee]
-                                                                                                for _mid in gMembMids:
-                                                                                                    k18.cancelGroupInvitation(op.param1,[_mid])
-                                                                                            except:
-                                                                                                try:
-                                                                                                    group = k19.getGroup(op.param1)
-                                                                                                    gMembMids = [contact.mid for contact in group.invitee]
-                                                                                                    for _mid in gMembMids:
-                                                                                                        k19.cancelGroupInvitation(op.param1,[_mid])
-                                                                                                except:
-                                                                                                    try:
-                                                                                                        group = k20.getGroup(op.param1)
-                                                                                                        gMembMids = [contact.mid for contact in group.invitee]
-                                                                                                        for _mid in gMembMids:
-                                                                                                            k20.cancelGroupInvitation(op.param1,[_mid])
-                                                                                                    except:
-                                                                                                        pass
+                                                pass
         if op.type == 13:
             if op.param1 in protectinvite:
                 if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
@@ -1269,19 +1185,7 @@ def bot(op):
                                                                                if op.param3 not in wait["blacklist"]:
                                                                                    k17.kickoutFromGroup(op.param1,[op.param2])
                                                                            except:
-                                                                              try:
-                                                                                  if op.param3 not in wait["blacklist"]:
-                                                                                      k18.kickoutFromGroup(op.param1,[op.param2])
-                                                                              except:
-                                                                                 try:
-                                                                                     if op.param3 not in wait["blacklist"]:
-                                                                                         k19.kickoutFromGroup(op.param1,[op.param2])
-                                                                                 except:
-                                                                                    try:
-                                                                                        if op.param3 not in wait["blacklist"]:
-                                                                                            k20.kickoutFromGroup(op.param1,[op.param2])
-                                                                                    except:
-                                                                                        pass  
+                                                                               pass  
                 return
 
         if op.type == 5:
@@ -1601,43 +1505,7 @@ def bot(op):
                                                             if op.param3 not in wait["blacklist"]:
                                                                 k11.kickoutFromGroup(op.param1,[op.param2])
                                                         except:
-                                                            try:
-                                                                if op.param3 not in wait["blacklist"]:
-                                                                    k12.kickoutFromGroup(op.param1,[op.param2])
-                                                            except:
-                                                               try:
-                                                                   if op.param3 not in wait["blacklist"]:
-                                                                       k13.kickoutFromGroup(op.param1,[op.param2])
-                                                               except:
-                                                                  try:
-                                                                      if op.param3 not in wait["blacklist"]:
-                                                                          k14.kickoutFromGroup(op.param1,[op.param2])  
-                                                                  except:
-                                                                     try:
-                                                                         if op.param3 not in wait["blacklist"]:
-                                                                             k15.kickoutFromGroup(op.param1,[op.param2])
-                                                                     except:
-                                                                        try:
-                                                                            if op.param3 not in wait["blacklist"]:
-                                                                                k16.kickoutFromGroup(op.param1,[op.param2])  
-                                                                        except:
-                                                                           try:
-                                                                               if op.param3 not in wait["blacklist"]:
-                                                                                   k17.kickoutFromGroup(op.param1,[op.param2])
-                                                                           except:
-                                                                              try:
-                                                                                  if op.param3 not in wait["blacklist"]:
-                                                                                      k18.kickoutFromGroup(op.param1,[op.param2])
-                                                                              except:
-                                                                                 try:
-                                                                                     if op.param3 not in wait["blacklist"]:
-                                                                                         k19.kickoutFromGroup(op.param1,[op.param2])
-                                                                                 except:
-                                                                                    try:
-                                                                                        if op.param3 not in wait["blacklist"]:
-                                                                                            k20.kickoutFromGroup(op.param1,[op.param2])
-                                                                                    except:
-                                                                                        pass                                      
+                                                            pass                                      
                 return
 
         if op.type == 19:
