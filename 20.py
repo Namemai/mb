@@ -4691,7 +4691,7 @@ def bot(op):
                                  for ticket_id in n_links:
                                     group = cl.findGroupByTicket(ticket_id)
                                     cl.acceptGroupInvitationByTicket(group.id,ticket_id)
-                                    cl.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                    cl.sendMessage(msg.to, " : %s" % str(group.name))
                                     
                         elif cmd == "ลบรัน":
                           if wait["selfbot"] == True:
@@ -5393,7 +5393,7 @@ def bot(op):
                                 ki.sendMessage(msg.to,"Nama diganti jadi " + string + "")
       
 
-                        elif cmd == "บอท":
+                        elif cmd == "mybot":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                cl.sendContact(to, mid)
@@ -5420,7 +5420,7 @@ def bot(op):
                                cl.sendContact(to, Jmid)
                                cl.sendContact(to, Zmid)
                                
-                        elif cmd == "reinvite":
+                        elif cmd == "pp":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ki.leaveGroup(msg.to)
@@ -7173,22 +7173,6 @@ def bot(op):
                                 k19.sendMessage(msg.to, "อยู่ค้าบเจ้านาย ")
                                 k20.sendMessage(msg.to, "อยู่ค้าบเจ้านาย ")
                                 
-
-                        elif cmd == "เชิญบอท":
-                          if wait["selfbot"] == True:
-                            if msg._from in admin:
-                                try:
-                                    anggota = [Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
-                                    cl.inviteIntoGroup(msg.to, anggota)
-                                    ki.acceptGroupInvitation(msg.to)
-                                    kk.acceptGroupInvitation(msg.to)
-                                    kc.acceptGroupInvitation(msg.to)
-                                    kb.acceptGroupInvitation(msg.to)
-                                    kd.acceptGroupInvitation(msg.to)
-                                    ke.acceptGroupInvitation(msg.to)
-                                    kf.acceptGroupInvitation(msg.to)
-                                except:
-                                    pass
                                     
                         elif cmd == "เชิญผี":
                           if wait["selfbot"] == True:
@@ -7263,22 +7247,7 @@ def bot(op):
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 cl.sendMessage(msg.to, "Asalamu.alaikum..wr..wb..! Bye bye "+str(G.name))
-                                cl.leaveGroup(msg.to)
-
-                        elif cmd.startswith("ออก "):
-                            if msg._from in admin:
-                                proses = text.split(" ")
-                                ng = text.replace(proses[0] + " ","")
-                                gid = cl.getGroupIdsJoined()
-                                for i in gid:
-                                    h = cl.getGroup(i).name
-                                    if h == ng:
-                                        ki.sendMessage(i, "Silahkan admin invite atau masukan kembali")
-                                        ki.leaveGroup(i)
-                                        kk.leaveGroup(i)
-                                        kc.leaveGroup(i)
-                                        kb.leaveGroup(i)
-                                        cl.sendMessage(to,"Berhasil keluar dari grup " +h)      
+                                cl.leaveGroup(msg.to)     
  
                         elif cmd == "ผีมา":
                             if msg._from in admin:
