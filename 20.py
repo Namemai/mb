@@ -3508,7 +3508,7 @@ def bot(op):
                                                             pass
                 return
 
-            if Mmid in op.param3:
+            if mid11 in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -3599,7 +3599,7 @@ def bot(op):
                                                             pass
                 return
 
-            if Nmid in op.param3:
+            if mid13 in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -3690,7 +3690,7 @@ def bot(op):
                                                             pass 
                 return
 
-            if Smid in op.param3:
+            if mid17 in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -3781,7 +3781,7 @@ def bot(op):
                                                             pass
                 return
 
-            if Pmid in op.param3:
+            if mid20 in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -3872,7 +3872,7 @@ def bot(op):
                                                             pass
                 return
 
-            if Qmid in op.param3:
+            if mid20 in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -3963,7 +3963,7 @@ def bot(op):
                                                             pass 
                 return
 
-            if Tmid in op.param3:
+            if mid20 in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -4054,7 +4054,7 @@ def bot(op):
                                                             pass
                 return
 
-            if Wmid in op.param3:
+            if mid20 in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -4145,7 +4145,7 @@ def bot(op):
                                                             pass
                 return
 
-            if Ymid in op.param3:
+            if mid20 in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -4236,7 +4236,7 @@ def bot(op):
                                                             pass
                 return
 
-            if Umid in op.param3:
+            if Bmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -4327,7 +4327,7 @@ def bot(op):
                                                             pass
                 return
 
-            if Omid in op.param3:
+            if Bmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -4418,7 +4418,7 @@ def bot(op):
                                                             pass
                 return
 
-            if Lmid in op.param3:
+            if Bmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -4509,7 +4509,7 @@ def bot(op):
                                                             pass
                 return
 
-            if Xmid in op.param3:
+            if Bmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -4600,7 +4600,7 @@ def bot(op):
                                                             pass
                 return
 
-            if Vmid in op.param3:
+            if Bmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -4691,7 +4691,7 @@ def bot(op):
                                                             pass 
                 return
 
-            if Kmid in op.param3:
+            if Bmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -4782,7 +4782,7 @@ def bot(op):
                                                             pass 
                 return
 
-            if Qqmid in op.param3:
+            if Bmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -4873,7 +4873,7 @@ def bot(op):
                                                             pass
                 return
 
-            if Wwmid in op.param3:
+            if Bmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -4964,7 +4964,7 @@ def bot(op):
                                                             pass
                 return
 
-            if Eemid in op.param3:
+            if Bmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
@@ -5055,7 +5055,7 @@ def bot(op):
                                                             pass
                 return
 
-            if Rrmid in op.param3:
+            if Bmid in op.param3:
                 if op.param2 in Bots:
                     pass
                 if op.param2 in owner:
