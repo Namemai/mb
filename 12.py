@@ -1256,20 +1256,20 @@ def bot(op):
                         
                 if op.param3 in Zmid:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
-                        sw.kickoutFromGroup(op.param1,[op.param2])
+                        cl.kickoutFromGroup(op.param1,[op.param2])
                         cl.findAndAddContactsByMid(op.param3)
                         cl.inviteIntoGroup(op.param1,[Zmid])
                     else:
-                        sw.kickoutFromGroup(op.param1,[op.param2])
+                        cl.kickoutFromGroup(op.param1,[op.param2])
                         cl.findAndAddContactsByMid(op.param3)
                         cl.inviteIntoGroup(op.param1,[Zmid])
                 if op.param3 in Jmid:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
-                        kj.kickoutFromGroup(op.param1,[op.param2])
+                        cl.kickoutFromGroup(op.param1,[op.param2])
                         cl.findAndAddContactsByMid(op.param3)
                         cl.inviteIntoGroup(op.param1,[Jmid])
                     else:
-                        kj.kickoutFromGroup(op.param1,[op.param2])
+                        cl.kickoutFromGroup(op.param1,[op.param2])
                         cl.findAndAddContactsByMid(op.param3)
                         cl.inviteIntoGroup(op.param1,[Jmid])                                        
                         
@@ -1306,7 +1306,7 @@ def bot(op):
                     try:
                         if op.param3 not in wait["blacklist"]:
                             random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
-                            random.choice(ABC).inviteIntoGroup(op.param1,[Zmid])
+                            random.choice(ABC).inviteIntoGroup(op.param1,[Jmid])
                     except:
                         try:
                             if op.param3 not in wait["blacklist"]:
@@ -1316,7 +1316,7 @@ def bot(op):
                             try:
                                 if op.param3 not in wait["blacklist"]:
                                     random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
-                                    random.choice(ABC).inviteIntoGroup(op.param1,[Zmid])
+                                    random.choice(ABC).inviteIntoGroup(op.param1,[Jmid])
                             except:
                                 try:
                                     if op.param3 not in wait["blacklist"]:
@@ -1326,7 +1326,7 @@ def bot(op):
                                     try:
                                         if op.param3 not in wait["blacklist"]:
                                             random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
-                                            random.choice(ABC).inviteIntoGroup(op.param1,[Zmid])
+                                            random.choice(ABC).inviteIntoGroup(op.param1,[Jmid])
                                     except:
                                         try:
                                             if op.param3 not in wait["blacklist"]:
@@ -1336,7 +1336,7 @@ def bot(op):
                                             try:
                                                 if op.param3 not in wait["blacklist"]:
                                                     random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
-                                                    random.choice(ABC).inviteIntoGroup(op.param1,[Zmid])
+                                                    random.choice(ABC).inviteIntoGroup(op.param1,[Jmid])
                                             except:
                                                 try:
                                                     if op.param3 not in wait["blacklist"]:
@@ -1346,7 +1346,7 @@ def bot(op):
                                                     try:
                                                         if op.param3 not in wait["blacklist"]:
                                                             random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
-                                                            random.choice(ABC).inviteIntoGroup(op.param1,[Zmid])
+                                                            random.choice(ABC).inviteIntoGroup(op.param1,[Jmid])
                                                     except:
                                                         pass                
                 return
@@ -1405,7 +1405,7 @@ def bot(op):
                                                 except:
                                                     try:
                                                         k9.inviteIntoGroup(op.param1,[op.param3])
-                                                        k10.acceptGroupInvitation(op.param1)
+                                                        cl.acceptGroupInvitation(op.param1)
                                                         k9.kickoutFromGroup(op.param1,[op.param2])
                                                     except:
                                                         try:
