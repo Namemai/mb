@@ -5078,17 +5078,8 @@ def bot(op):
                                                                                                         k20.findAndAddContactsByMid(op.param1,admin)
                                                                                                         k20.inviteIntoGroup(op.param1,admin)  
                                                                                                     except:
-                                                                                                        try:
-                                                                                                            kj.kickoutFromGroup(op.param1,[op.param2])
-                                                                                                            kj.findAndAddContactsByMid(op.param1,admin)
-                                                                                                            kj.inviteIntoGroup(op.param1,admin)  
-                                                                                                        except:
-                                                                                                            try:
-                                                                                                                sw.kickoutFromGroup(op.param1,[op.param2])
-                                                                                                                sw.findAndAddContactsByMid(op.param1,admin)
-                                                                                                                sw.inviteIntoGroup(op.param1,admin)  
-                                                                                                            except:
-                                                                                                                pass
+                                                                                                        pass
+
                                                         
                 return 
             
