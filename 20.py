@@ -1663,6 +1663,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = ke.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             ke.updateGroup(G)
@@ -1814,6 +1816,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = kf.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             kf.updateGroup(G)
@@ -1965,6 +1969,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = k8.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             k8.updateGroup(G)
@@ -2111,6 +2117,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = k9.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             k9.updateGroup(G)
@@ -2262,6 +2270,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = k10.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             k10.updateGroup(G)
@@ -2413,6 +2423,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = k11.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             k11.updateGroup(G)
@@ -2564,6 +2576,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = k12.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             k12.updateGroup(G)
@@ -2715,6 +2729,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = k13.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             k13.updateGroup(G)
@@ -2866,6 +2882,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = k14.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             k14.updateGroup(G)
@@ -3017,6 +3035,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = k15.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             k15.updateGroup(G)
@@ -3168,6 +3188,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = k16.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             k16.updateGroup(G)
@@ -3319,6 +3341,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = k17.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             k17.updateGroup(G)
@@ -3470,6 +3494,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = k18.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             k18.updateGroup(G)
@@ -3621,6 +3647,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = k19.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             k19.updateGroup(G)
@@ -3772,6 +3800,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = k20.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             k20.updateGroup(G)
@@ -3923,6 +3953,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = kj.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             kj.updateGroup(G)
@@ -4074,6 +4106,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = sw.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             sw.updateGroup(G)
@@ -4225,6 +4259,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = cl.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             cl.updateGroup(G)
@@ -4376,6 +4412,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = ki.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             ki.updateGroup(G)
@@ -4527,6 +4565,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = kk.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             kk.updateGroup(G)
@@ -4678,6 +4718,8 @@ def bot(op):
                                             k18.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k19.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k20.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            kj.acceptGroupInvitationByTicket(op.param1,Ticket)
+                                            sw.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = kc.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             kc.updateGroup(G)
@@ -4981,7 +5023,72 @@ def bot(op):
                                                             k9.findAndAddContactsByMid(op.param1,admin)
                                                             k9.inviteIntoGroup(op.param1,admin)  
                                                         except:
-                                                            pass
+                                                            try:
+                                                                k10.kickoutFromGroup(op.param1,[op.param2])
+                                                                k10.findAndAddContactsByMid(op.param1,admin)
+                                                                k10.inviteIntoGroup(op.param1,admin)  
+                                                            except:
+                                                                try:
+                                                                    k11.kickoutFromGroup(op.param1,[op.param2])
+                                                                    k11.findAndAddContactsByMid(op.param1,admin)
+                                                                    k11.inviteIntoGroup(op.param1,admin)  
+                                                                except:
+                                                                    try:
+                                                                        k12.kickoutFromGroup(op.param1,[op.param2])
+                                                                        k12.findAndAddContactsByMid(op.param1,admin)
+                                                                        k12.inviteIntoGroup(op.param1,admin)  
+                                                                    except:
+                                                                        try:
+                                                                            k13.kickoutFromGroup(op.param1,[op.param2])
+                                                                            k13.findAndAddContactsByMid(op.param1,admin)
+                                                                            k13.inviteIntoGroup(op.param1,admin)  
+                                                                        except:
+                                                                            try:
+                                                                                k14.kickoutFromGroup(op.param1,[op.param2])
+                                                                                k14.findAndAddContactsByMid(op.param1,admin)
+                                                                                k14.inviteIntoGroup(op.param1,admin)  
+                                                                            except:
+                                                                                try:
+                                                                                    k15.kickoutFromGroup(op.param1,[op.param2])
+                                                                                    k15.findAndAddContactsByMid(op.param1,admin)
+                                                                                    k15.inviteIntoGroup(op.param1,admin)  
+                                                                                except:
+                                                                                    try:
+                                                                                        k16.kickoutFromGroup(op.param1,[op.param2])
+                                                                                        k16.findAndAddContactsByMid(op.param1,admin)
+                                                                                        k16.inviteIntoGroup(op.param1,admin)  
+                                                                                    except:
+                                                                                        try:
+                                                                                            k17.kickoutFromGroup(op.param1,[op.param2])
+                                                                                            k17.findAndAddContactsByMid(op.param1,admin)
+                                                                                            k17.inviteIntoGroup(op.param1,admin)  
+                                                                                        except:
+                                                                                            try:
+                                                                                                k18.kickoutFromGroup(op.param1,[op.param2])
+                                                                                                k18.findAndAddContactsByMid(op.param1,admin)
+                                                                                                k18.inviteIntoGroup(op.param1,admin)  
+                                                                                            except:
+                                                                                                try:
+                                                                                                    k19.kickoutFromGroup(op.param1,[op.param2])
+                                                                                                    k19.findAndAddContactsByMid(op.param1,admin)
+                                                                                                    k19.inviteIntoGroup(op.param1,admin)  
+                                                                                                except:
+                                                                                                    try:
+                                                                                                        k20.kickoutFromGroup(op.param1,[op.param2])
+                                                                                                        k20.findAndAddContactsByMid(op.param1,admin)
+                                                                                                        k20.inviteIntoGroup(op.param1,admin)  
+                                                                                                    except:
+                                                                                                        try:
+                                                                                                            kj.kickoutFromGroup(op.param1,[op.param2])
+                                                                                                            kj.findAndAddContactsByMid(op.param1,admin)
+                                                                                                            kj.inviteIntoGroup(op.param1,admin)  
+                                                                                                        except:
+                                                                                                            try:
+                                                                                                                sw.kickoutFromGroup(op.param1,[op.param2])
+                                                                                                                sw.findAndAddContactsByMid(op.param1,admin)
+                                                                                                                sw.inviteIntoGroup(op.param1,admin)  
+                                                                                                            except:
+                                                                                                                pass
                                                         
                 return 
             
