@@ -1121,7 +1121,7 @@ def bot(op):
                                                                     except:
                                                                         try:
                                                                             group = k14.getGroup(op.param1)
-                                                                        gMembMids = [contact.mid for contact in group.invitee]
+                                                                            gMembMids = [contact.mid for contact in group.invitee]
                                                                             for _mid in gMembMids:
                                                                                 wait["blacklist"][op.param2] = True
                                                                                 k14.cancelGroupInvitation(op.param1,[_mid])
