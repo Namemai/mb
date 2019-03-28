@@ -6860,6 +6860,8 @@ def bot(op):
                                 k20.acceptGroupInvitationByTicket(msg.to,Ticket)           
                                 kj.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 sw.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                kj.sendMessage(msg.to, "ผีน้อย1 พร้อมคุ้มกันเจ้านายค่ะ ")
+                                sw.sendMessage(msg.to, "ผีน้อย2 พร้อมคุ้มกันเจ้านายค่ะ ") 
                                 G = ki.getGroup(msg.to)
                                 ki.updateGroup(G)
  
@@ -6924,7 +6926,7 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 try:
-                                    anggota = [Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,mid8,mid9,mid10,mid11,mid12,mid13,mid14,mid15,mid16,mid17,mid18,mid19,mid20]
+                                    anggota = [Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,mid8,mid9,mid10,mid11,mid12,mid13,mid14,mid15,mid16,mid17,mid18,mid19,mid20,Jmid,Zmid]
                                     cl.inviteIntoGroup(msg.to, anggota)
                                     ki.acceptGroupInvitation(msg.to)
                                     kk.acceptGroupInvitation(msg.to)
@@ -6946,7 +6948,10 @@ def bot(op):
                                     k18.acceptGroupInvitation(msg.to)
                                     k19.acceptGroupInvitation(msg.to)
                                     k20.acceptGroupInvitation(msg.to)
-                                    cl.sendMessage(msg.to,"Grup "+str(ginfo.name)+"Aman Dari JS")
+                                    kj.acceptGroupInvitation(msg.to)
+                                    sw.acceptGroupInvitation(msg.to)
+                                    kj.sendMessage(msg.to, "ผีน้อย1 พร้อมคุ้มกันเจ้านายค่ะ ")
+                                    sw.sendMessage(msg.to, "ผีน้อย2 พร้อมคุ้มกันเจ้านายค่ะ ") 
                                 except:
                                     pass
 
@@ -7152,6 +7157,8 @@ def bot(op):
                                 Ticket = cl.reissueGroupTicket(msg.to)
                                 kj.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 sw.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                kj.sendMessage(msg.to, "ผีน้อย1 พร้อมคุ้มกันเจ้านายค่ะ ")
+                                sw.sendMessage(msg.to, "ผีน้อย2 พร้อมคุ้มกันเจ้านายค่ะ ") 
                                 G = sw.getGroup(msg.to)
                                 G.preventedJoinByTicket = True
                                 sw.updateGroup(G)
@@ -8559,6 +8566,8 @@ def bot(op):
                                 k18.sendMessage(msg.to, "อยู่ค้าบเจ้านาย ")
                                 k19.sendMessage(msg.to, "อยู่ค้าบเจ้านาย ")
                                 k20.sendMessage(msg.to, "อยู่ค้าบเจ้านาย ")
+                                kj.sendMessage(msg.to, "ผีน้อย1 พร้อมคุ้มกันเจ้านายค่ะ ")
+                                sw.sendMessage(msg.to, "ผีน้อย2 พร้อมคุ้มกันเจ้านายค่ะ ") 
                                 
                                     
                         elif cmd == "เชิญผี":
@@ -8571,7 +8580,7 @@ def bot(op):
                                 except:
                                     pass           
 
-                        elif cmd == "คิกมา":
+                        elif cmd == "มา":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
@@ -8600,11 +8609,15 @@ def bot(op):
                                 k18.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 k19.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 k20.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                kj.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                sw.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                kj.sendMessage(msg.to, "ผีน้อย1 พร้อมคุ้มกันเจ้านายค่ะ ")
+                                sw.sendMessage(msg.to, "ผีน้อย2 พร้อมคุ้มกันเจ้านายค่ะ ") 
                                 G = k20.getGroup(msg.to)
                                 G.preventedJoinByTicket = True
                                 k20.updateGroup(G)
 
-                        elif cmd == "คิกออก":
+                        elif cmd == "ออก":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
@@ -8628,6 +8641,10 @@ def bot(op):
                                 k18.leaveGroup(msg.to)
                                 k19.leaveGroup(msg.to)
                                 k20.leaveGroup(msg.to)
+                                kj.sendMessage(msg.to, "หมดหน้าที่ผีน้อย1แล้วเจ้านายดูแลตัวเองด้วยนะค่ะ ")
+                                sw.sendMessage(msg.to, "หมดหน้าที่ผีน้อย2แล้วเจ้านายดูแลตัวเองด้วยนะค่ะ ") 
+                                kj.leaveGroup(msg.to)
+                                sw.leaveGroup(msg.to)
                                 
                         elif cmd == "ออกกลุ่ม":
                           if wait["selfbot"] == True:
