@@ -2288,7 +2288,7 @@ def bot(op):
                                             k12.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k13.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             k14.acceptGroupInvitationByTicket(op.param1,Ticket)
-                                            k15.acceptGroupInvitationByTicket(op.param1,Ticket))
+                                            k15.acceptGroupInvitationByTicket(op.param1,Ticket)
                                             G = k12.getGroup(op.param1)
                                             G.preventedJoinByTicket = True
                                             k12.updateGroup(G)
