@@ -46,7 +46,6 @@ Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
 KAC = [cl,ki,kk]
 ABC = [cl,ki,kk]
-GHOST = [kj,sw]
 Bots = [mid,Amid,Bmid]
 Saints = admin + staff
 
