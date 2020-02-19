@@ -26,14 +26,26 @@ cl = LineClient()
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
+lineProfile = cl.getProfile()
+lineSettings = cl.getSettings()
+mid = cl.getProfile().mid
+responsename = cl.getProfile().displayName
 
 ki = LineClient()
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Channel Access Token : " + str(channel.channelAccessToken))
+lineProfile = ki.getProfile()
+lineSettings = ki.getSettings()
+amid = ki.getProfile().mid
+responsename = ki.getProfile().displayName
 
 kk = LineClient()
 kk.log("Auth Token : " + str(kk.authToken))
 kk.log("Channel Access Token : " + str(channel.channelAccessToken))
+lineProfile = kk.getProfile()
+lineSettings = kk.getSettings()
+bmid = kk.getProfile().mid
+responsename = kk.getProfile().displayName
 
 poll = LinePoll(cl)
 call = cl
@@ -441,8 +453,8 @@ def help():
                   "🇹🇭❂͜͡➣ " + key + "เชคบอท\n" + \
                   "🇹🇭❂͜͡➣ " + key + "มา\n" + \
                   "🇹🇭❂͜͡➣ " + key + "ออก\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "ผีมา\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "ผีออก\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "ck\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "bb\n" + \
                   "🇹🇭❂͜͡➣ " + key + "เชิญผี\n" + \
                   "🇹🇭         💘 คำสั่งบอท 💘\n" + \
                   "🇹🇭❂͜͡➣ " + key + "บอท\n" + \
@@ -2866,14 +2878,14 @@ def bot(op):
                         elif cmd == "รูป1":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Amid] = True
-                                ki.sendMessage(msg.to,"Send your images.....")
+                                ki.sendMessage(msg.to,"ส่งรูปมาค่ะ.....")
                                 
                         elif cmd == "รูป2":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Bmid] = True
-                                kk.sendMessage(msg.to,"ส่งรูป.....")
+                                kk.sendMessage(msg.to,"ส่งรูปมาค่ะ.....")
 
-                        elif cmd.startswith("/ชื่อ1 "):
+                        elif cmd.startswith("ชื่อ1 "):
                           if msg._from in admin:
                             separate = msg.text.split(" ")
                             string = msg.text.replace(separate[0] + " ","")
@@ -2938,7 +2950,7 @@ def bot(op):
                                 G = ki.getGroup(msg.to)
                                 ki.updateGroup(G)
 
-                        elif cmd == "ดึงคิก":
+                        elif cmd == "เชิญบอท":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 try:
@@ -3063,7 +3075,7 @@ def bot(op):
                                 wait["Talkdblacklist"] = True
                                 cl.sendMessage(msg.to,"Please send to contact...")
 
-                        elif ("ติดดำ " in msg.text):
+                        elif ("ดำ " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
@@ -3105,7 +3117,7 @@ def bot(op):
                                 wait["dblacklist"] = True
                                 cl.sendMessage(msg.to,"Please send to contact...")
 
-                        elif cmd == "cekban" or text.lower() == 'banlist':
+                        elif cmd == "เชคดำ" or text.lower() == 'banlist':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                               if wait["blacklist"] == {}:
@@ -3254,7 +3266,7 @@ def bot(op):
                                        nm8 += [nama[p]]
                                    mentionMembers(msg.to, nm8)
 
-                        elif cmd == "listbot":
+                        elif cmd == "ชื่อบอท":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 ma = ""
@@ -3265,7 +3277,7 @@ def bot(op):
                                     ma += str(a) + ". " +cl.getContact(m_id).displayName + "\n"
                                 cl.sendMessage(msg.to,"「 Daftar User Bot 」\n\n"+ma+"\nTotal「%s」List Bots" %(str(len(Bots))))
 
-                        elif cmd == "listadmin":
+                        elif cmd == "ชื่อแอดมิน":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 ma = ""
@@ -4317,9 +4329,9 @@ def bot(op):
                                 Ticket = cl.reissueGroupTicket(msg.to)
                                 ki.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 kk.acceptGroupInvitationByTicket(msg.to,Ticket)                               
-                                G = k10.getGroup(msg.to)
+                                G = kk.getGroup(msg.to)
                                 G.preventedJoinByTicket = True
-                                k10.updateGroup(G)
+                                kk.updateGroup(G)
                                 ki.sendMessage(msg.to, "1 พร้อมคุ้มกันเจ้านายสุดหล่อค่ะ ")
                                 kk.sendMessage(msg.to, "2 พร้อมคุ้มกันเจ้านายสุดหล่แค่ะ ") 
 
