@@ -171,7 +171,7 @@ wait = {
             },
     "unsend":False,
     "mention":"BY.꧁❈§{MAI}§❈꧂",
-    "Respontag":"BY.꧁❈§{MAI}§❈꧂",
+    "Respontag":"แอบอ่านออกมารุย",
     "welcome":"BY.꧁❈§{MAI}§❈꧂",
     "leave":"Slamat tinggal sobat\nsmoga ktmu di lain hari nanti",
     "comment":"BY.꧁❈§{MAI}§❈꧂",
