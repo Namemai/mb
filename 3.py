@@ -430,10 +430,10 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "🇹🇭❂͜͡➣ 「 💘 ꧁❈§{MAI}§❈꧂ 💘 」\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "คำสั่ง\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "คำสั่ง1\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "คำสั่ง2\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "คำสั่ง3\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "h\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "h1\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "h2\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "h3\n" + \
                   "🇹🇭❂͜͡➣ " + key + "!mai\n" + \
                   "🇹🇭❂͜͡➣ " + key + "คท\n" + \
                   "🇹🇭❂͜͡➣ " + key + "เช็ค\n" + \
@@ -458,19 +458,19 @@ def help():
                   "🇹🇭❂͜͡➣ " + key + "ผีออก\n" + \
                   "🇹🇭❂͜͡➣ " + key + "เชิญผี\n" + \
                   "🇹🇭         💘 คำสั่งบอท 💘\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "บอท\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "เชิญบอท\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "บอท/b\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "ดึงคิก\n" + \
                   "🇹🇭❂͜͡➣ " + key + "เชคดำ\n" + \
                   "🇹🇭❂͜͡➣ " + key + "ล้างดำ\n" + \
                   "🇹🇭❂͜͡➣ " + key + "ตั้งแอดมิน @\n" + \
                   "🇹🇭❂͜͡➣ " + key + "ลบแอดมิน @\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "รูป1-20\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "protectkick on\off\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "protectjoin on\off\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "protectinvite on\off\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "protecturl on\off\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "Ghost on\off\n" + \
-                  "🇹🇭❂͜͡➣ " + key + "Allpro on\off\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "รูป1-3\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "ป้องกันเตะ on\off\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "ป้องกันเข้า on\off\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "ป้องกันเชิญ on\off\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "ป้องกันลิ้ง on\off\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "ป้องกันยกเลิก on\off\n" + \
+                  "🇹🇭❂͜͡➣ " + key + "ป้องกันหมด on\off\n" + \
                   "🇹🇭❂͜͡➣ " + key + "Antijs on\n" + \
                   "🇹🇭❂͜͡➣ BY:꧁❈§{MAI}§❈꧂"
 
@@ -4984,7 +4984,7 @@ def bot(op):
                                          msgs = "Welcome Msg sudah tidak aktif"
                                     cl.sendMessage(msg.to, "「 Status Welcome 」\n" + msgs)
 
-                        elif 'Protecturl ' in msg.text:
+                        elif 'ป้องกันลิ้ง ' in msg.text:
                            if msg._from in admin:
                               spl = msg.text.replace('Protecturl ','')
                               if spl == 'on':
@@ -5004,7 +5004,7 @@ def bot(op):
                                          msgs = "Protect url sudah tidak aktif"
                                     cl.sendMessage(msg.to, "「 Status Protect Url 」\n" + msgs)
 
-                        elif 'Protectkick ' in msg.text:
+                        elif 'ป้องกันเตะ ' in msg.text:
                            if msg._from in admin:
                               spl = msg.text.replace('Protectkick ','')
                               if spl == 'on':
@@ -5024,7 +5024,7 @@ def bot(op):
                                          msgs = "Protect kick sudah tidak aktif"
                                     cl.sendMessage(msg.to, "「 Status Protect kick 」\n" + msgs)
 
-                        elif 'Protectjoin ' in msg.text:
+                        elif 'ป้องกันเข้า ' in msg.text:
                            if msg._from in admin:
                               spl = msg.text.replace('Protectjoin ','')
                               if spl == 'on':
@@ -5044,7 +5044,7 @@ def bot(op):
                                          msgs = "Protect join sudah tidak aktif"
                                     cl.sendMessage(msg.to, "「 Status Protect Join 」\n" + msgs)
 
-                        elif 'Protectcancel ' in msg.text:
+                        elif 'ป้องกันยกเลิก ' in msg.text:
                            if msg._from in admin:
                               spl = msg.text.replace('Protectcancel ','')
                               if spl == 'on':
@@ -5064,7 +5064,7 @@ def bot(op):
                                          msgs = "Protect cancel sudah tidak aktif"
                                     cl.sendMessage(msg.to, "「 Status Protect Cancel 」\n" + msgs)
 
-                        elif 'Protectinvite ' in msg.text:
+                        elif 'ป้องกันเชิญ ' in msg.text:
                            if msg._from in admin:
                               spl = msg.text.replace('Protectinvite ','')
                               if spl == 'on':
@@ -5084,7 +5084,7 @@ def bot(op):
                                          msgs = "Protect invite sudah tidak aktif"
                                     cl.sendMessage(msg.to, "「 Status Protect Invite 」\n" + msgs)
 
-                        elif 'Allpro ' in msg.text:
+                        elif 'ป้องกันหมด ' in msg.text:
                            if msg._from in admin:
                               spl = msg.text.replace('Allpro ','')
                               if spl == 'on':
