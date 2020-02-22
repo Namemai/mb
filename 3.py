@@ -53,7 +53,6 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 KAC = [cl,ki,kk,kc]
 ABC = [cl,ki,kk,kc]
-GHOST = [kj,sw]
 Bots = [mid,Amid,Bmid,Dmid]
 Saints = admin + staff
 
