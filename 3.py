@@ -39,10 +39,6 @@ kc = LineClient()
 kc.log("Auth Token : " + str(kc.authToken))
 kc.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-
-sw = LineClient()
-sw.log("Auth Token : " + str(sw.authToken))
-sw.log("Channel Access Token : " + str(channel.channelAccessToken))
 print("\nBY: SELFBOT-BY:MAI\n")
 
 poll = LinePoll(cl)
