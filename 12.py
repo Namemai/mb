@@ -4615,7 +4615,7 @@ def bot(op):
                                kf.sendMessage(to, "Status:\n\n🔴Kick : {} \n🔴Invite : {}".format(sil1,sil))                               
                                try:k8.inviteIntoGroup(to, [mid8]);has = "OK"
                                except:has = "NOT"
-                               try:k8.kickoutFromGroup(to, mid8]);has1 = "OK"
+                               try:k8.kickoutFromGroup(to, [mid8]);has1 = "OK"
                                except:has1 = "NOT"
                                if has == "OK":sil = "🔋██ full 100%"
                                else:sil = "🔌█▒. Low 0%"
