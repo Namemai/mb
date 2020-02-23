@@ -4742,7 +4742,7 @@ def bot(op):
                                 kc.findAndAddContactsByMid(Emid)
                                 kc.findAndAddContactsByMid(Fmid)                                                              
                                 kc.findAndAddContactsByMid(Gmid)
-                                kc.findAndAddContactsByMid(mid8                                
+                                kc.findAndAddContactsByMid(mid8)                               
                                 kc.findAndAddContactsByMid(mid9)
                                 kc.findAndAddContactsByMid(Jmid)
                                 kc.findAndAddContactsByMid(mid10)
