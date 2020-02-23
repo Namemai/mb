@@ -4404,12 +4404,12 @@ def bot(op):
                                 Setmain["ARfoto"][Gmid] = True
                                 k10.sendMessage(msg.to,"ส่งรูปมาค่ะเจ้านาย...")
                                 
-                        elif cmd == "รูปผี1":
+                        elif cmd == "รูป11":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Jmid] = True
                                 kj.sendMessage(msg.to,"ส่งรูปมาค่ะเจ้านาย...")         
                                 
-                        elif cmd == "รูปผี2":
+                        elif cmd == "รูป12":
                             if msg._from in admin:
                                 Setmain["ARfoto"][Zmid] = True
                                 sw.sendMessage(msg.to,"ส่งรูปมาค่ะเจ้านาย...")      
