@@ -722,6 +722,34 @@ def bot(op):
                             except:
                                 pass
         if op.type == 13:
+            if op.param2 in wait["blacklist"]:
+                if op.param2 in Bots:
+                    pass
+                if op.param2 in owner:
+                    pass
+                if op.param2 in admin:
+                    pass
+                if op.param2 in staff:
+                    pass
+                else:
+                    wait["blacklist"][op.param2] = True                    
+                    try:
+                        cl.cancelGroupInvitation(op.param1,[op.param2])
+                    except:
+                        try:
+                            ki.cancelGroupInvitation(op.param1,[op.param2])
+                        except:
+                            try:
+                                kk.cancelGroupInvitation(op.param1,[op.param2])
+                            except:
+                                try:
+                                    kc.cancelGroupInvitation(op.param1,[op.param2])
+                                except:
+                                    pass
+                return
+                                            
+#__________________________________
+        if op.type == 13:
             if op.param1 in protectinvite:
                 if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                     try:
