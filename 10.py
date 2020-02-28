@@ -5156,6 +5156,19 @@ def bot(op):
                                 except:
                                     pass
 
+
+                        elif cmd == "ckm":
+                            if msg._from in admin or msg._from in owner:
+                               try:cl.inviteIntoGroup(to, [mid]);has = "OK"
+                               except:has = "NOT"
+                               try:cl.kickoutFromGroup(to, [mid]);has1 = "OK"
+                               except:has1 = "NOT"
+                               if has == "OK":sil = "🔋██ ไม่บัค 100%"
+                               else:sil = "🔌█▒ บัค 0%"
+                               if has1 == "OK":sil1 = "🔋██ ไม่บัค 100%"
+                               else:sil1 = "🔌█▒ บัค 0%"
+                               cl.sendMessage(to, "Status:\n\n🔴เตะ : {} \n🔴เชิญ : {}".format(sil1,sil))
+
                         elif cmd == "ck":
                             if msg._from in admin or msg._from in owner:
                                try:ki.inviteIntoGroup(to, [Amid]);has = "OK"
