@@ -67,6 +67,14 @@ k10 = LineClient()
 k10.log("Auth Token : " + str(k10.authToken))
 k10.log("Channel Access Token : " + str(channel.channelAccessToken))
 
+kj = LineClient()
+kj.log("Auth Token : " + str(kj.authToken))
+kj.log("Channel Access Token : " + str(channel.channelAccessToken))
+
+sw = LineClient()
+sw.log("Auth Token : " + str(sw.authToken))
+sw.log("Channel Access Token : " + str(channel.channelAccessToken))
+
 print("\nSELFBOT:MAI\n")
 
 poll = LinePoll(cl)
@@ -86,8 +94,11 @@ Gmid = kf.getProfile().mid
 mid8 = k8.getProfile().mid
 mid9 = k9.getProfile().mid
 mid10 = k10.getProfile().mid
+Jmid = kj.getProfile().mid
+Zmid = sw.getProfile().mid
 KAC = [cl,ki,kk,kc,kb,kd,ke,kf,k8,k9,k10]
 ABC = [cl,ki,kk,kc,kb,kd,ke,kf,k8,k9,k10]
+GHOST = [kj,sw]
 Bots = [mid,Amid,Bmid,Dmid,Emid,Fmid,Gmid,mid8,mid9,mid10]
 Saints = admin + staff
 
@@ -114,6 +125,8 @@ responsename7 = kf.getProfile().displayName
 responsename8 = k8.getProfile().displayName
 responsename9 = k9.getProfile().displayName
 responsename10 = k10.getProfile().displayName
+responsename11 = kj.getProfile().displayName
+responsename12 = sw.getProfile().displayName
 
 settings = {
     "Picture":False,
@@ -661,33 +674,87 @@ def bot(op):
                             kj.updateGroup(X)
                 except:
                     try:
-                        if sw.getGroup(op.param1).preventedJoinByTicket == False:
+                        if ki.getGroup(op.param1).preventedJoinByTicket == False:
                             if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
-                                sw.reissueGroupTicket(op.param1)
-                                X = sw.getGroup(op.param1)
+                                ki.reissueGroupTicket(op.param1)
+                                X = ki.getGroup(op.param1)
                                 X.preventedJoinByTicket = True
-                                sw.updateGroup(X)
+                                ki.updateGroup(X)
                                 cl.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)
                     except:
                         try:
-                            if kj.getGroup(op.param1).preventedJoinByTicket == False:
+                            if kk.getGroup(op.param1).preventedJoinByTicket == False:
                                 if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
-                                    kj.reissueGroupTicket(op.param1)
-                                    X = kj.getGroup(op.param1)
+                                    kk.reissueGroupTicket(op.param1)
+                                    X = kk.getGroup(op.param1)
                                     X.preventedJoinByTicket = True
-                                    kj.updateGroup(X)
+                                    kk.updateGroup(X)
                                     cl.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)
                         except:
                             try:
-                                if sw.getGroup(op.param1).preventedJoinByTicket == False:
+                                if kc.getGroup(op.param1).preventedJoinByTicket == False:
                                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
-                                        sw.reissueGroupTicket(op.param1)
-                                        X = sw.getGroup(op.param1)
+                                        kc.reissueGroupTicket(op.param1)
+                                        X = kc.getGroup(op.param1)
                                         X.preventedJoinByTicket = True
-                                        sw.updateGroup(X)
+                                        kc.updateGroup(X)
                                         cl.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)
                             except:
-                                pass
+                                try:
+                                    if kb.getGroup(op.param1).preventedJoinByTicket == False:
+                                        if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                            kb.reissueGroupTicket(op.param1)
+                                            X = kb.getGroup(op.param1)
+                                            X.preventedJoinByTicket = True
+                                            cl.updateGroup(X)
+                                            cl.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)
+                                except:
+                                    try:
+                                        if kd.getGroup(op.param1).preventedJoinByTicket == False:
+                                            if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                                kd.reissueGroupTicket(op.param1)
+                                                X = kd.getGroup(op.param1)
+                                                X.preventedJoinByTicket = True
+                                                kd.updateGroup(X)
+                                                cl.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)
+                                    except:
+                                        try:
+                                            if ke.getGroup(op.param1).preventedJoinByTicket == False:
+                                                if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                                    ke.reissueGroupTicket(op.param1)
+                                                    X = ke.getGroup(op.param1)
+                                                    X.preventedJoinByTicket = True
+                                                    ke.updateGroup(X)
+                                                    cl.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)            
+                                        except:
+                                            try:
+                                                if kf.getGroup(op.param1).preventedJoinByTicket == False:
+                                                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                                        kf.reissueGroupTicket(op.param1)
+                                                        X = kf.getGroup(op.param1)
+                                                        X.preventedJoinByTicket = True
+                                                        kf.updateGroup(X)
+                                                        cl.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)           
+                                            except:
+                                                try:
+                                                    if k8.getGroup(op.param1).preventedJoinByTicket == False:
+                                                        if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                                            k8.reissueGroupTicket(op.param1)
+                                                            X = k8.getGroup(op.param1)
+                                                            X.preventedJoinByTicket = True
+                                                            k8.updateGroup(X)
+                                                            cl.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)          
+                                                except:
+                                                    try:
+                                                        if k9.getGroup(op.param1).preventedJoinByTicket == False:
+                                                            if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                                                                k9.reissueGroupTicket(op.param1)
+                                                                X = k9.getGroup(op.param1)
+                                                                X.preventedJoinByTicket = True
+                                                                k9.updateGroup(X)
+                                                                cl.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)             
+                                                    except:
+                                                        pass
         if op.type == 13:
             if mid in op.param3:
                 if wait["autoLeave"] == True:
@@ -807,70 +874,60 @@ def bot(op):
                         gMembMids = [contact.mid for contact in group.invitee]
                         for _mid in gMembMids:
                             ki.cancelGroupInvitation(op.param1,[_mid])
-                            ki.kickoutFromGroup(op.param1,[op.param2])
                     except:
                         try:
                             group = kk.getGroup(op.param1)
                             gMembMids = [contact.mid for contact in group.invitee]
                             for _mid in gMembMids:
                                 kk.cancelGroupInvitation(op.param1,[_mid])
-                                kk.kickoutFromGroup(op.param1,[op.param2])
                         except:
                             try:
                                 group = kc.getGroup(op.param1)
                                 gMembMids = [contact.mid for contact in group.invitee]
                                 for _mid in gMembMids:
                                     kc.cancelGroupInvitation(op.param1,[_mid])
-                                    kc.kickoutFromGroup(op.param1,[op.param2])
                             except:
                                 try:
                                     group = kb.getGroup(op.param1)
                                     gMembMids = [contact.mid for contact in group.invitee]
                                     for _mid in gMembMids:
                                         kb.cancelGroupInvitation(op.param1,[_mid])
-                                        kb.kickoutFromGroup(op.param1,[op.param2])
                                 except:
                                     try:
                                         group = kd.getGroup(op.param1)
                                         gMembMids = [contact.mid for contact in group.invitee]
                                         for _mid in gMembMids:
                                             kd.cancelGroupInvitation(op.param1,[_mid])
-                                            kd.kickoutFromGroup(op.param1,[op.param2])
                                     except:
                                         try:
                                             group = ke.getGroup(op.param1)
                                             gMembMids = [contact.mid for contact in group.invitee]
                                             for _mid in gMembMids:
                                                 ke.cancelGroupInvitation(op.param1,[_mid])
-                                                ke.kickoutFromGroup(op.param1,[op.param2])
                                         except:
                                             try:
                                                 group = kf.getGroup(op.param1)
                                                 gMembMids = [contact.mid for contact in group.invitee]
                                                 for _mid in gMembMids:
                                                     kf.cancelGroupInvitation(op.param1,[_mid])
-                                                    kf.kickoutFromGroup(op.param1,[op.param2])
                                             except:
                                                 try:
                                                     group = k8.getGroup(op.param1)
                                                     gMembMids = [contact.mid for contact in group.invitee]
                                                     for _mid in gMembMids:
                                                         k8.cancelGroupInvitation(op.param1,[_mid])
-                                                        k8.kickoutFromGroup(op.param1,[op.param2])
                                                 except:
                                                     try:
                                                         group = k9.getGroup(op.param1)
                                                         gMembMids = [contact.mid for contact in group.invitee]
                                                         for _mid in gMembMids:
                                                             k9.cancelGroupInvitation(op.param1,[_mid])
-                                                            k9.kickoutFromGroup(op.param1,[op.param2])
                                                     except:
                                                         try:
                                                             group = k10.getGroup(op.param1)
                                                             gMembMids = [contact.mid for contact in group.invitee]
                                                             for _mid in gMembMids:
                                                                 k10.cancelGroupInvitation(op.param1,[_mid])
-                                                                k10.kickoutFromGroup(op.param1,[op.param2])
                                                         except:
                                                             pass
 
@@ -996,6 +1053,71 @@ def bot(op):
                     random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
                 else:
                 	pass
+
+        if op.type == 13:
+            if op.param1 in protectinvite:
+                if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                    try:
+                        group = ki.getGroup(op.param1)
+                        gMembMids = [contact.mid for contact in group.invitee]
+                        for _mid in gMembMids:
+                            ki.cancelGroupInvitation(op.param1,[_mid])
+                    except:
+                        try:
+                            group = kk.getGroup(op.param1)
+                            gMembMids = [contact.mid for contact in group.invitee]
+                            for _mid in gMembMids:
+                                kk.cancelGroupInvitation(op.param1,[_mid])
+                        except:
+                            try:
+                                group = kc.getGroup(op.param1)
+                                gMembMids = [contact.mid for contact in group.invitee]
+                                for _mid in gMembMids:
+                                    kc.cancelGroupInvitation(op.param1,[_mid])
+                            except:
+                                try:
+                                    group = kb.getGroup(op.param1)
+                                    gMembMids = [contact.mid for contact in group.invitee]
+                                    for _mid in gMembMids:
+                                        kb.cancelGroupInvitation(op.param1,[_mid])
+                                except:
+                                    try:
+                                        group = kd.getGroup(op.param1)
+                                        gMembMids = [contact.mid for contact in group.invitee]
+                                        for _mid in gMembMids:
+                                            kd.cancelGroupInvitation(op.param1,[_mid])
+                                    except:
+                                        try:
+                                            group = ke.getGroup(op.param1)
+                                            gMembMids = [contact.mid for contact in group.invitee]
+                                            for _mid in gMembMids:
+                                                ke.cancelGroupInvitation(op.param1,[_mid])
+                                        except:
+                                            try:
+                                                group = kf.getGroup(op.param1)
+                                                gMembMids = [contact.mid for contact in group.invitee]
+                                                for _mid in gMembMids:
+                                                    kf.cancelGroupInvitation(op.param1,[_mid])
+                                            except:
+                                                try:
+                                                    group = k8.getGroup(op.param1)
+                                                    gMembMids = [contact.mid for contact in group.invitee]
+                                                    for _mid in gMembMids:
+                                                        k8.cancelGroupInvitation(op.param1,[_mid])
+                                                except:
+                                                    try:
+                                                        group = k9.getGroup(op.param1)
+                                                        gMembMids = [contact.mid for contact in group.invitee]
+                                                        for _mid in gMembMids:
+                                                            k9.cancelGroupInvitation(op.param1,[_mid])
+                                                    except:
+                                                        try:
+                                                            group = k10.getGroup(op.param1)
+                                                            gMembMids = [contact.mid for contact in group.invitee]
+                                                            for _mid in gMembMids:
+                                                                k10.cancelGroupInvitation(op.param1,[_mid])
+                                                        except:
+                                                            pass
 
         if op.type == 17:
             if op.param2 in wait["blacklist"]:
