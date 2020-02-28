@@ -807,70 +807,60 @@ def bot(op):
                         gMembMids = [contact.mid for contact in group.invitee]
                         for _mid in gMembMids:
                             ki.cancelGroupInvitation(op.param1,[_mid])
-                            ki.kickoutFromGroup(op.param1,[op.param2])
                     except:
                         try:
                             group = kk.getGroup(op.param1)
                             gMembMids = [contact.mid for contact in group.invitee]
                             for _mid in gMembMids:
                                 kk.cancelGroupInvitation(op.param1,[_mid])
-                                kk.kickoutFromGroup(op.param1,[op.param2])
                         except:
                             try:
                                 group = kc.getGroup(op.param1)
                                 gMembMids = [contact.mid for contact in group.invitee]
                                 for _mid in gMembMids:
                                     kc.cancelGroupInvitation(op.param1,[_mid])
-                                    kc.kickoutFromGroup(op.param1,[op.param2])
                             except:
                                 try:
                                     group = kb.getGroup(op.param1)
                                     gMembMids = [contact.mid for contact in group.invitee]
                                     for _mid in gMembMids:
                                         kb.cancelGroupInvitation(op.param1,[_mid])
-                                        kb.kickoutFromGroup(op.param1,[op.param2])
                                 except:
                                     try:
                                         group = kd.getGroup(op.param1)
                                         gMembMids = [contact.mid for contact in group.invitee]
                                         for _mid in gMembMids:
                                             kd.cancelGroupInvitation(op.param1,[_mid])
-                                            kd.kickoutFromGroup(op.param1,[op.param2])
                                     except:
                                         try:
                                             group = ke.getGroup(op.param1)
                                             gMembMids = [contact.mid for contact in group.invitee]
                                             for _mid in gMembMids:
                                                 ke.cancelGroupInvitation(op.param1,[_mid])
-                                                ke.kickoutFromGroup(op.param1,[op.param2])
                                         except:
                                             try:
                                                 group = kf.getGroup(op.param1)
                                                 gMembMids = [contact.mid for contact in group.invitee]
                                                 for _mid in gMembMids:
                                                     kf.cancelGroupInvitation(op.param1,[_mid])
-                                                    kf.kickoutFromGroup(op.param1,[op.param2])
                                             except:
                                                 try:
                                                     group = k8.getGroup(op.param1)
                                                     gMembMids = [contact.mid for contact in group.invitee]
                                                     for _mid in gMembMids:
                                                         k8.cancelGroupInvitation(op.param1,[_mid])
-                                                        k8.kickoutFromGroup(op.param1,[op.param2])
                                                 except:
                                                     try:
                                                         group = k9.getGroup(op.param1)
                                                         gMembMids = [contact.mid for contact in group.invitee]
                                                         for _mid in gMembMids:
                                                             k9.cancelGroupInvitation(op.param1,[_mid])
-                                                            k9.kickoutFromGroup(op.param1,[op.param2])
                                                     except:
                                                         try:
                                                             group = k10.getGroup(op.param1)
                                                             gMembMids = [contact.mid for contact in group.invitee]
                                                             for _mid in gMembMids:
                                                                 k10.cancelGroupInvitation(op.param1,[_mid])
-                                                                k10.kickoutFromGroup(op.param1,[op.param2])
                                                         except:
                                                             pass
 
@@ -996,6 +986,71 @@ def bot(op):
                     random.choice(ABC).kickoutFromGroup(op.param1,[op.param2])
                 else:
                 	pass
+
+        if op.type == 13:
+            if op.param1 in protectinvite:
+                if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                    try:
+                        group = ki.getGroup(op.param1)
+                        gMembMids = [contact.mid for contact in group.invitee]
+                        for _mid in gMembMids:
+                            ki.cancelGroupInvitation(op.param1,[_mid])
+                    except:
+                        try:
+                            group = kk.getGroup(op.param1)
+                            gMembMids = [contact.mid for contact in group.invitee]
+                            for _mid in gMembMids:
+                                kk.cancelGroupInvitation(op.param1,[_mid])
+                        except:
+                            try:
+                                group = kc.getGroup(op.param1)
+                                gMembMids = [contact.mid for contact in group.invitee]
+                                for _mid in gMembMids:
+                                    kc.cancelGroupInvitation(op.param1,[_mid])
+                            except:
+                                try:
+                                    group = kb.getGroup(op.param1)
+                                    gMembMids = [contact.mid for contact in group.invitee]
+                                    for _mid in gMembMids:
+                                        kb.cancelGroupInvitation(op.param1,[_mid])
+                                except:
+                                    try:
+                                        group = kd.getGroup(op.param1)
+                                        gMembMids = [contact.mid for contact in group.invitee]
+                                        for _mid in gMembMids:
+                                            kd.cancelGroupInvitation(op.param1,[_mid])
+                                    except:
+                                        try:
+                                            group = ke.getGroup(op.param1)
+                                            gMembMids = [contact.mid for contact in group.invitee]
+                                            for _mid in gMembMids:
+                                                ke.cancelGroupInvitation(op.param1,[_mid])
+                                        except:
+                                            try:
+                                                group = kf.getGroup(op.param1)
+                                                gMembMids = [contact.mid for contact in group.invitee]
+                                                for _mid in gMembMids:
+                                                    kf.cancelGroupInvitation(op.param1,[_mid])
+                                            except:
+                                                try:
+                                                    group = k8.getGroup(op.param1)
+                                                    gMembMids = [contact.mid for contact in group.invitee]
+                                                    for _mid in gMembMids:
+                                                        k8.cancelGroupInvitation(op.param1,[_mid])
+                                                except:
+                                                    try:
+                                                        group = k9.getGroup(op.param1)
+                                                        gMembMids = [contact.mid for contact in group.invitee]
+                                                        for _mid in gMembMids:
+                                                            k9.cancelGroupInvitation(op.param1,[_mid])
+                                                    except:
+                                                        try:
+                                                            group = k10.getGroup(op.param1)
+                                                            gMembMids = [contact.mid for contact in group.invitee]
+                                                            for _mid in gMembMids:
+                                                                k10.cancelGroupInvitation(op.param1,[_mid])
+                                                        except:
+                                                            pass
 
         if op.type == 17:
             if op.param2 in wait["blacklist"]:
