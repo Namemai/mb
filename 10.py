@@ -1389,7 +1389,7 @@ def bot(op):
                                                                                             try:
                                                                                                 k10.kickoutFromGroup(op.param1,[op.param2])
                                                                                                 k10.inviteIntoGroup(op.param1,[op.param3])
-                                                                                                cl.acceptGroupInvitation(op.param1)])
+                                                                                                cl.acceptGroupInvitation(op.param1)
                                                                                             except:
                                                                                                 pass
                 return
